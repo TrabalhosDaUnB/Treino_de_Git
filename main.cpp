@@ -10,15 +10,21 @@ void printaMenu();
 int opcaoMenu(int opcao);
 
 int main(){
-	
+
 	cout << "hello world!" << endl;
 	return 0;
 
 }
 
 int fazSoma(){
-
-	cout << "soma" << endl;
+	float numero1, numero2;
+	float soma;
+	cout << "Digite o primeiro numero: ";
+	cin >> numero1;
+	cout << "Digite o segundo numero: ";
+	cin >> numero2;
+	soma = numero1 + numero2;
+	cout << "O resultado da soma é: " << soma << endl;
 	return 0;
 
 }
