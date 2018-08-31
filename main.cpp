@@ -37,7 +37,9 @@ int fazMultiplicacao(){
 
 
 int fazSubtracao(){
-	cout << "sub" << endl;
+	int valor1 = 0, valor2 = 2;
+
+	cout << valor1 - valor2 << endl;
 	return 0;
 
 }
