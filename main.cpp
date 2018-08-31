@@ -37,7 +37,13 @@ int fazMultiplicacao(){
 
 
 int fazSubtracao(){
-	cout << "sub" << endl;
+	int valor1, valor2;
+
+	cout << "Entre com o primeiro valor: ";
+	cin >> valor1;
+	cout << "Entre com o segundo valor: ";
+	cin >> valor2;
+	cout << valor1 - valor2 << endl;
 	return 0;
 
 }
