@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+double numero_1 = 0, numero_2 = 1;
 int fazSoma();
 double fazDivisao();
 int fazMultiplicacao();
@@ -9,8 +9,9 @@ int fazSubtracao();
 void printaMenu();
 int opcaoMenu(int opcao);
 
+
 int main(){
-	
+
 	cout << "hello world!" << endl;
 	return 0;
 
@@ -24,8 +25,16 @@ int fazSoma(){
 }
 
 double fazDivisao(){
-	cout << "divisao" << endl;
-	return 0;
+
+	double resultado_divisao = 0.0, numero_1 = 0.0, numero_2 = 0.0;
+
+
+	cin >> numero_1;
+	cin >> numero_2;
+
+	resultado_divisao = (numero_1/numero_2);
+	cout << "resultado" << resultado_divisao<< endl;
+	return resultado_divisao;
 
 }
 
