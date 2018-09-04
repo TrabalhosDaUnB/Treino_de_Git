@@ -45,8 +45,14 @@ double fazDivisao(){
 }
 
 int fazMultiplicacao(){
-
-	cout << "mult" << endl;
+	int numero1, numero2;
+	int resultadoMultiplicacao;
+	cout << "Digite o primeiro número: ";
+	cin >> numero1;
+	cout << "Digite o segundo numero: ";
+	cin >> numero2;
+	resultadoMultiplicacao = numero1 * numero2;
+	cout << "O resultado da multiplicação é: " << resultadoMultiplicacao << endl;
 	return 0;
 }
 
